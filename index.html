@@ -49,7 +49,7 @@
     </div>
   </section>
 
-  <!-- ========= ABOUT ========= -->
+  
   <section class="about" id="about">
     <div class="about-content">
       <h2 class="heading">About <span>Me</span></h2>
@@ -61,7 +61,7 @@
     </div>
   </section>
 
-  <!-- ========= SERVICES ========= -->
+  
   <section class="services" id="services">
     <h2 class="heading">My <span>Services</span></h2>
 
@@ -86,7 +86,7 @@
     </div>
   </section>
 
-  <!-- ========= CONTACT ========= -->
+  
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me</span></h2>
 
@@ -110,13 +110,13 @@
     </form>
   </section>
 
-  <!-- ========= LIBRARIES ========= -->
+  
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-  <!-- ========= APP SCRIPT ========= -->
+  
   <script>
-    // ---- mobile menu toggle ----
+    //  mobile menu toggle 
     const menuIcon = document.getElementById("menu-icon");
     const navbar = document.querySelector(".navbar");
 
@@ -125,7 +125,7 @@
       menuIcon.classList.toggle("fa-times");
     });
 
-    // ---- close nav on link click / active link based on scroll ----
+    
     const navLinks = document.querySelectorAll("header nav a");
     const sections = document.querySelectorAll("section");
 
@@ -138,10 +138,10 @@
     );
 
     window.addEventListener("scroll", () => {
-      // sticky header
+      
       document.querySelector("header").classList.toggle("sticky", window.scrollY > 100);
 
-      // active nav link on scroll
+    
       let current = "";
       sections.forEach((section) => {
         const sectionTop = section.offsetTop - 150;
@@ -156,7 +156,7 @@
       });
     });
 
-    // ---- scroll reveal animations ----
+  
     ScrollReveal({
       reset: true,
       distance: "60px",
@@ -167,7 +167,7 @@
     ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
     ScrollReveal().reveal(".home-img, .services-container, .contact form", { origin: "bottom" });
 
-    // ---- typing effect ----
+    
     const typed = new Typed(".multiple-text", {
       strings: ["Frontend Developer", "UI/UX Designer", "Freelancer"],
       typeSpeed: 100,
@@ -181,3 +181,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-95y7R7tchZ1PZK7gvhRXB8wZJ3DHIA6pKuYlsYz6K5U7Pzt6lNKrEi235f4Yh7bO9xYia+PF2ux8uRDtlZkybg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
+
