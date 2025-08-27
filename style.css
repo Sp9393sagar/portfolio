@@ -120,7 +120,7 @@
       color: var(--main-color);
     }
 
-    /* ------------- home ------------- */
+    
     .home {
       flex-direction: row;
     }
@@ -196,7 +196,7 @@
       transform: translateY(-3px);
     }
 
-    /* ------------- about ------------- */
+
     .about {
       flex-direction: column;
       text-align: center;
@@ -206,7 +206,7 @@
       max-width: 800px;
     }
 
-    /* ------------- services ------------- */
+
     .services {
       flex-direction: column;
     }
@@ -237,7 +237,7 @@
       color: var(--main-color);
     }
 
-    /* ------------- contact ------------- */
+
     .contact {
       flex-direction: column;
     }
@@ -270,7 +270,7 @@
       color: #b8b8b8;
     }
 
-    /* ------------- responsive ------------- */
+    
     @media (max-width: 991px) {
       header {
         padding: 18px 5%;
@@ -316,4 +316,5 @@
       .home-content h1 {
         font-size: 2.2rem;
       }
+
     }
